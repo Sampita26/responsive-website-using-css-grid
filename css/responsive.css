@@ -1,0 +1,20 @@
+@media only screen and (max-width:750px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 4fr 2fr 2fr 2fr 2fr 2fr 2fr 0.2fr;
+        grid-template-areas: 
+        'navbar'
+        'main'
+        'item-3'
+        'item-4'
+        'item-5'
+        'item-6'
+        'item-7'
+        'footer';
+    }
+    .navbar ul{
+        grid-template-columns: 1fr;
+    }
+}
+
+       
